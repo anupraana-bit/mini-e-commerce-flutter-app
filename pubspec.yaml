@@ -1,0 +1,25 @@
+name: mini_ecommerce_flutter
+description: MyShop - a mini e-commerce Flutter application (assignment project).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # pub.dev package used for the promotional banner carousel
+  carousel_slider: ^5.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Only needed if you switch to local images (see README notes).
+  # assets:
+  #   - assets/images/
